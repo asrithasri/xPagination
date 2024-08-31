@@ -22,6 +22,7 @@ function App() {
 
     }
     catch(error){
+      alert("Failed to fetch data");
       console.log('Error fetching data',error);
     }
   };
