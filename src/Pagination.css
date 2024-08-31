@@ -1,0 +1,31 @@
+button {
+    background-color: rgb(10, 241, 241);
+    color: white;
+    border: none;
+  }
+
+  .page-number {
+    display: flex;
+    gap: 5px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .page-number.active {
+    background-color: #ddd;
+  }
+  
+  .pagination-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .currentPage {
+    display: inline-block;
+    padding: 2px 5px;
+    background-color: rgb(10, 241, 241);
+    margin: 0 10px;
+    color: white;
+  }
